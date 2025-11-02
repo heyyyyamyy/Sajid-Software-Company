@@ -8,7 +8,8 @@ const nextConfig = {
       },
     ],
   },
-  output: 'standalone',
+  // Removed 'standalone' output for Vercel compatibility
+  // Vercel handles the deployment automatically
 }
 
 module.exports = nextConfig
