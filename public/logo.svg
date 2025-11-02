@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main S Shape -->
+  <g transform="translate(40, 30)">
+    <!-- Outer S structure -->
+    <path d="M0 20 L80 20 L80 0 L100 0 L100 40 L60 40 L60 60 L100 60 L100 80 L120 80 L120 40 L120 20 L120 0 L0 0 L0 20 Z" fill="#C8860D" stroke="#B8860B" stroke-width="2"/>
+    
+    <!-- Top horizontal bar -->
+    <rect x="0" y="0" width="120" height="20" fill="#C8860D"/>
+    
+    <!-- Middle connecting section -->
+    <path d="M20 40 L100 40 L100 60 L40 60 L40 80 L120 80 L120 100 L0 100 L0 80 L20 80 L20 40 Z" fill="#C8860D"/>
+    
+    <!-- Bottom horizontal bar -->
+    <rect x="0" y="80" width="120" height="20" fill="#C8860D"/>
+    
+    <!-- Inner details for depth -->
+    <rect x="10" y="10" width="100" height="10" fill="#D4AF37"/>
+    <rect x="30" y="50" width="60" height="10" fill="#D4AF37"/>
+    <rect x="10" y="90" width="100" height="10" fill="#D4AF37"/>
+  </g>
+</svg>

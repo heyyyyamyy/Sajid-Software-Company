@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sajidsoftware.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin areas (if any in future)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
