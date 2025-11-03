@@ -168,7 +168,7 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              Let's Build Together
+              Let&apos;s Build Together
             </motion.button>
             <motion.button
               onClick={() => document.querySelector('#services')?.scrollIntoView({ behavior: 'smooth' })}

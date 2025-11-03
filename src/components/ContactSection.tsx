@@ -135,11 +135,11 @@ const ContactSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="gradient-text">Let's Build</span> <span className="text-white">the Future</span>
+            <span className="gradient-text">Let&apos;s Build</span> <span className="text-white">the Future</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Ready to transform your ideas into reality? Get in touch with our team 
-            and let's create something extraordinary together.
+            and let&apos;s create something extraordinary together.
           </p>
         </motion.div>
 
@@ -275,7 +275,7 @@ const ContactSection = () => {
                     </motion.div>
                     <h3 className="text-2xl font-bold text-white mb-4">Message Sent!</h3>
                     <p className="text-gray-300">
-                      Thank you for reaching out. We'll get back to you within 24 hours.
+                      Thank you for reaching out. We&apos;ll get back to you within 24 hours.
                     </p>
                   </motion.div>
                 )}

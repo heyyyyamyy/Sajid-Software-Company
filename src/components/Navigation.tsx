@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -49,9 +50,12 @@ const Navigation = () => {
             className="flex items-center space-x-3"
           >
             <div className="flex items-center">
-              <img 
+              <Image 
                 src="/logo.png" 
                 alt="Sajid Software Company" 
+                width={48}
+                height={48}
+                priority
                 className="h-8 w-8 sm:h-10 sm:w-10 lg:h-12 lg:w-12 object-contain"
               />
             </div>
@@ -82,7 +86,7 @@ const Navigation = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Let's Build Together
+              Let&apos;s Build Together
             </motion.button>
           </div>
 
@@ -126,7 +130,7 @@ const Navigation = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
               >
-                Let's Build Together
+                Let&apos;s Build Together
               </motion.button>
             </div>
           </motion.div>

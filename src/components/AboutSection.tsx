@@ -68,11 +68,11 @@ const AboutSection = () => {
                 Pioneering the Next Generation of Software Solutions
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                At Sajid Software, we believe that great software is more than just code—it's about 
+                At Sajid Software, we believe that great software is more than just code—it&apos;s about 
                 creating intelligent systems that adapt, evolve, and empower businesses to reach 
                 their full potential. Our team combines deep technical expertise with creative 
-                problem-solving to deliver solutions that don't just meet today's needs, but 
-                anticipate tomorrow's challenges.
+                problem-solving to deliver solutions that don&apos;t just meet today&apos;s needs, but 
+                anticipate tomorrow&apos;s challenges.
               </p>
               <p className="text-gray-300 leading-relaxed">
                 Founded on the principles of innovation, quality, and integrity, we specialize in 
